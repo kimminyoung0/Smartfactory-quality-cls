@@ -22,16 +22,17 @@
 상관관계분석을 위한 결측치 처리에 KNN Imputer를 사용하기 위해 k값을 바꿔가며 평균 상관계수 분석
 ![평균 상관계수 그래프 (A / T,O)](https://github.com/user-attachments/assets/87e05475-e082-4e0e-80ba-a5c2eace0d80)
 
-![히트맵(random100 A)](https://github.com/user-attachments/assets/e9f19525-af29-4b72-802e-46d0e357e876))
-![히트맵(random100) T/O](https://github.com/user-attachments/assets/7ca47d29-1b18-46c1-b077-d3cc124dfc73)
+![히트맵(random100 A)](https://github.com/user-attachments/assets/06b53298-5e91-422e-afc0-be3e9e730d1c)
 --------------------------------------
 ## DataPreprocessing & Experiment
 ### 1.PCA
 **데이터 선형/비선형 파악**
 ![상관계수 히스토그램](https://github.com/user-attachments/assets/ca33da53-a9ac-4f0f-bf51-d97d7aab5948)
+
 두 데이터 모두 0에 가까운 컬럼들이 월등히 많아서 데이터가 선형관계라고 보기는 어렵고 PCA를 했을 경우 모델 성능에 좋을지 알아보기 위해 데이터의 분산을 분석했습니다.
 **데이터 분산 분석**
 ![분산 분석](https://github.com/user-attachments/assets/aa96f6d2-37b1-4a9f-9dcb-6493ab44badd)
+
 A 데이터의 결과를 보면 29개의 컬럼으로 약 85퍼센트의 데이터 분산을 설명할 수 있으며, 소수의 주성분으로 데이터의 대부분의 분산을 설명할 수 있으므로 PCA 적용이 효과적일 것이라 봅니다. 따라서 선형 모델인 SVM도 실험에 추가해봅니다. 
 그러나 T/O 데이터의 경우 78개의 컬럼으로 약 85퍼센트의 데이터 분산을 설명할 수 있으며, 소수의 주성분으로 데이터의 대부분의 분산을 설명할 수 없으므로 PCA 적용이 오히려 모델의 성능을 더 떨어트릴 것이라 예상합니다. 
 ### 2. 상관관계가 높은 컬럼 제거
