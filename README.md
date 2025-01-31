@@ -26,10 +26,12 @@
 --------------------------------------
 ## DataPreprocessing & Experiment
 ### 1.PCA
+
 **데이터 선형/비선형 파악**
 ![상관계수 히스토그램](https://github.com/user-attachments/assets/ca33da53-a9ac-4f0f-bf51-d97d7aab5948)
 
 두 데이터 모두 0에 가까운 컬럼들이 월등히 많아서 데이터가 선형관계라고 보기는 어렵고 PCA를 했을 경우 모델 성능에 좋을지 알아보기 위해 데이터의 분산을 분석했습니다.
+
 **데이터 분산 분석**
 ![분산 분석](https://github.com/user-attachments/assets/aa96f6d2-37b1-4a9f-9dcb-6493ab44badd)
 
