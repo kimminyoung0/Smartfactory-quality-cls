@@ -13,7 +13,7 @@
 ### 결측치 분포
 ### 종속 변수 분포
 ![Y_Class](https://github.com/user-attachments/assets/2f8f9950-a846-4cf4-a484-c73744a2b21e)
-![Y_Quality_Density by Y_Class]((https://github.com/user-attachments/assets/c0732bfd-5633-4fb2-bde8-5dbc6747e2d3)
+![Y_Quality_Density by Y_Class](https://github.com/user-attachments/assets/c0732bfd-5633-4fb2-bde8-5dbc6747e2d3)
 ### 전체 데이터 분포 확인
 ### 이상치 분석
 트리기반 모델을 사용하기에 필요없지만 데이터에 대한 이해를 위해 진행했습니다.
