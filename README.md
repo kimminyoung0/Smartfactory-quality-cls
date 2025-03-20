@@ -7,6 +7,9 @@
 - **라이브러리**: Scikit-learn, XGBoost, CatBoost, SVM
 - **데이터 분석 & 처리**: Pandas, NumPy
 ----------------------------------
+## 블로그 정리
+XGBoost를 선택한 이유
+(https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교)(https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교)
 
 ## Dataset Info.
 ### train.csv
