@@ -9,7 +9,7 @@
 ----------------------------------
 ## 블로그 정리
 XGBoost를 선택한 이유
-(https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교)(https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교)
+[https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교](https://velog.io/@kimminyoung0/ML-XGBoost-LightGBM-CatBoost-비교)
 
 ## Dataset Info.
 ### train.csv
